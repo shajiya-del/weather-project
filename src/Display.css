@@ -1,0 +1,24 @@
+.display {
+  height: 4em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.5em;
+  outline: 1px solid #888888;
+  letter-spacing: 1px;
+}
+
+.responsive-display {
+  display: inline-block;
+}
+
+.display .responsive-display {
+  padding: 0 20px;
+  position: absolute;
+  right: 0;
+  transform-origin: right;
+}
